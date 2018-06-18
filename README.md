@@ -3,6 +3,7 @@ Docker container image built with [Jupyter Notebook](http://jupyter.org/) and [T
 
 Repository hosted on GitHub at [aeksco/jupyter-tabula](https://github.com/aeksco/jupyter-tabula).
 
+Docker container image hosted on Docker Hub at [aeksco/jupyter-tabula](https://hub.docker.com/r/aeksco/jupyter-tabula/).
 
 ## Usage
 
@@ -42,4 +43,4 @@ docker push your_docker_hub_username/jupyter-tabula
 
 ## Notes
 
-I would recommend this container image for testing and hacking purposes. This image is a bit heavy (`1.x GBs`) since it extends the [tensorflow/tensorflow](https://hub.docker.com/r/tensorflow/tensorflow/) container image. This was done mainly to save time since the Tensorflow container already has all the relevant dependencies installed and configured.
+I would recommend this container image for testing and hacking purposes. This image is a bit heavy (`2.02GB`) since it extends the [tensorflow/tensorflow](https://hub.docker.com/r/tensorflow/tensorflow/) container image. This was done mainly to save time since the Tensorflow container already has all the relevant dependencies installed and configured.
